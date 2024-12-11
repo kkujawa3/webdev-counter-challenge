@@ -1,5 +1,16 @@
 1. Why do you use "using strict" at the top of your JS files?
+
+This enables strict mode in Javascript with having a stricker set of rules with more warnings. It disallows duplicates in the function parameter and helps catch unsafe actions.
+
 2. What does line 3 mean?
+
+On line 3 -  let count = 0; declares a variable with the name count and it sets that variable's value to zero.
+
 3. What is happening on lines 5-8 and why?
+
+In referece to lines 5-8, this selects the first element within the document that matches the CSS selector.
+
 4. If you implemented the functionality of the buttons,
    why do you think I wrote the JS code the way I did?
+
+   After going over and over the code, you were simplifying the functions to be accountible for their own actions.
